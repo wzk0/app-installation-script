@@ -49,14 +49,48 @@ main:
 
 目前已有的软件：
 
-![list](https://raw.githubusercontent.com/wzk0/photo/main/appppppp.png)
+```
+.
+├── 办公
+│   ├── Joplin
+│   ├── Typora
+│   └── WPS-Office
+├── 编辑器
+│   ├── Sublime-Text
+│   └── VS-Code
+├── 工具
+│   ├── 阿里云盘
+│   ├── 搜狗输入法
+│   ├── Clash
+│   └── PicGo
+├── 开发
+├── 聊天
+│   ├── Discord
+│   ├── QQ
+│   └── Telegram
+├── 浏览器
+│   ├── Brave
+│   ├── Chrome
+│   ├── Firefox
+│   └── Vivaldi
+├── 视频
+├── 图形
+├── 音频
+│   ├── 网易云音乐
+│   ├── Harmony
+│   ├── Spotify
+│   └── YesPlayMusic
+└── 游戏
+     └── Steam
+
+```
 
 准备添加的软件：
 
-* yesplay music
-* picgo
-* 阿里云小白羊
-* 搜狗输入法
+* ~~yesplay music~~ 完成
+* ~~picgo~~ 完成
+* ~~阿里云小白羊~~ 完成
+* ~~搜狗输入法~~ 完成
 * ...
 
 ## END
