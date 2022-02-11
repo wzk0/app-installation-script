@@ -18,7 +18,13 @@
 
 ## How？
 
-首先clone仓库：
+前提是需要安装`python3，git，python3-pip`:
+
+```
+sudo apt install python3-pip git -y
+```
+
+接着clone仓库：
 
 ```git
 git clone https://github.com/wzk0/app-installation-script
