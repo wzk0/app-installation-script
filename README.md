@@ -1,6 +1,6 @@
 ## Linux应用安装脚本集合
 
-> 集中Linux应用安装过程中的指令以实现懒人式快速安装.
+> 集中Linux应用安装过程中的指令以实现懒人式快速安装。
 
 ## Why？
 
@@ -37,8 +37,9 @@ git clone https://github.com/wzk0/app-installation-script
 
 main:
   pac: apt      ##在此输入包管理器的全称，例如 apt、yum等；强烈建议使用Debian系的系统，因为软件相对而言比较全；
-  su: 1		##如果为1， 则执行安装时会以sudo执行；其他值则说明无需sudo；
-  ok: 1		 ##如果为1，则说明配置完成；其他值则说明没有完成配置。
+  su: 1     ##如果为1， 则执行安装时会以sudo执行；其他值则说明无需sudo；
+  ok: 2     ##如果为1，则说明配置完成；其他值则说明没有完成配置；
+  src: https://ghproxy.com/https://raw.githubusercontent.com/wzk0/repo-of-app/main/     ##这里填脚本源，可以填入自己fork的地址。
 ```
 
 然后执行`python3 main.py`即可。
@@ -51,6 +52,8 @@ main:
 
 另外，安装脚本几乎全部考虑了不同系统的安装方式，以及是否拥有sudo权限，只需要在`config.yaml`中设置即可；但是还是推荐大家使用Debian系的系统，能保证列表中所有软件的安装。
 
+> PS：Chrome和WPS-Office的下载需要打开网页验证。
+
 ## List
 
 目前已有的软件：
@@ -58,6 +61,7 @@ main:
 ```
 .
 ├── 办公
+│   ├── 钉钉
 │   ├── Joplin
 │   ├── Typora
 │   └── WPS-Office
@@ -86,9 +90,8 @@ main:
 │   ├── Harmony
 │   ├── Spotify
 │   └── YesPlayMusic
-└── 游戏
-     └── Steam
-
+├── 游戏
+└   └── Steam
 ```
 
 准备添加的软件：

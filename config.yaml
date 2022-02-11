@@ -3,4 +3,5 @@
 main:
   pac: apt      ##在此输入包管理器的全称，例如 apt、yum等；强烈建议使用Debian系的系统，因为软件相对而言比较全；
   su: 1     ##如果为1， 则执行安装时会以sudo执行；其他值则说明无需sudo；
+  src: https://ghproxy.com/https://raw.githubusercontent.com/wzk0/repo-of-app/main/     ##这里填脚本源，可以填入自己fork的仓库地址；
   ok: 2     ##如果为1，则说明配置完成；其他值则说明没有完成配置。
