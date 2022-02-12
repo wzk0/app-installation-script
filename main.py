@@ -28,6 +28,7 @@ else:
 ##检查是否安装了requests依赖
 try:
 	import requests
+	import pyyaml
 	print('已安装了相关依赖，可以通过输入 update 更新Store')
 	pass
 except ImportError:
@@ -35,8 +36,9 @@ except ImportError:
 	##根据config里的设置判断是否需要sudo
 	if rf.su==1:
 		os.system('sudo pip install requests')
+		os.system('sudo pip install pyyaml')
 	else:
-		os.system('pip install requests')
+		os.system('pip install pyyaml')
 
 ##get云端列表并输出
 print('目前已有的应用：\n')
