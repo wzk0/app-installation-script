@@ -31,12 +31,12 @@ try:
 	print('已安装了相关依赖，可以通过输入 update 更新Store')
 	pass
 except ImportError:
-	  print("没有安装依赖，正在安装...")
-	  ##根据config里的设置判断是否需要sudo
-	  if rf.su==1:
-	  	 os.system('sudo pip install requests')
-	  else:
-	  	os.system('pip install requests')
+	print("没有安装依赖，正在安装...")
+	##根据config里的设置判断是否需要sudo
+	if rf.su==1:
+		os.system('sudo pip install requests')
+	else:
+		os.system('pip install requests')
 
 ##get云端列表并输出
 print('目前已有的应用：\n')
