@@ -78,8 +78,8 @@ main:
 │   ├── 搜狗输入法
 │   ├── Clash
 │   └── PicGo
-├── 开发
 ├── 聊天
+│   ├── 微信
 │   ├── Discord
 │   ├── QQ
 │   └── Telegram
@@ -88,16 +88,17 @@ main:
 │   ├── Chrome
 │   ├── Firefox
 │   └── Vivaldi
-├── 视频
-├── 图形
 ├── 音频
 │   ├── 网易云音乐
 │   ├── Harmony
 │   ├── Spotify
 │   └── YesPlayMusic
 ├── 游戏
-└   └── Steam
+│   └── Steam
+
 ```
+
+> QQ为官方版(很垃圾),微信为优麒麟和微信合作版本(有点简陋,但是稳定)
 
 准备添加的软件：
 
